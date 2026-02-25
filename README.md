@@ -38,7 +38,7 @@ python -m venv venv
 ```
 # clone this repository
 ```
-git clone -- recursive [https://github.com/ASTRAson/cosys_drone_simluation.git](https://github.com/ASTRAson/cosys_drone_simluation.git)
+git clone https://github.com/ASTRAson/cosys_drone_simluation.git
 ```
 
 ### 2. Cloning the Original Cosys-AirSim Repository
@@ -46,7 +46,7 @@ To use the simulator framework, you must clone the official **Cosys-AirSim** rep
 
 # Clone the official Cosys-AirSim repository with submodules
 ```bash
-git clone --recursive [https://github.com/cosys-lab/Cosys-AirSim.git](https://github.com/cosys-lab/Cosys-AirSim.git)
+git clone https://github.com/cosys-lab/Cosys-AirSim.git
 ```
 # in your terminal run the requirements.txt script to install all the necessary packages
 ```bash
