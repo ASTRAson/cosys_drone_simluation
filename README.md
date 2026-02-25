@@ -73,8 +73,7 @@ To ensure the drone and sensors operate correctly for remote area monitoring, yo
 1. Open the `drone.uproject` file in **Unreal Engine 5.5.4**.
 2. If prompted to rebuild missing modules (such as the AirSim plugin), click **Yes**.
 3. This will open a blank unreal map, and you can build your environment as you desire from there.
-4. Press **Play** in the editor.
-5. Once you've set up your environment to your liking, run the simulation and then, while the simulation is running, execute your control script from the `/scripts` directory:
+4. Once you've set up your environment to your liking, run the simulation and then, while the simulation is running, execute your control script from the `/scripts` directory:
    ```bash
    python scripts/drone.py
 
