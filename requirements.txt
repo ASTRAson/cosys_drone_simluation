@@ -1,0 +1,33 @@
+# --- Simulação e Controle ---
+cosysairsim==3.3.0
+rpc-msgpack==0.6
+numpy==1.24.1
+
+# --- Visão Computacional e IA (YOLO) ---
+ultralytics==8.3.78
+ultralytics-thop==2.0.14
+opencv-python==4.11.0.86
+PyYAML==6.0.2
+
+# --- Deep Learning (PyTorch com suporte CUDA 11.8) ---
+torch==2.7.1+cu118
+torchaudio==2.7.1+cu118
+torchvision==0.22.1+cu118
+
+# --- Análise de Dados e Gráficos ---
+pandas==1.5.3
+matplotlib==3.6.3
+matplotlib-inline==0.1.7
+seaborn==0.13.2
+
+# --- Ambiente e Desenvolvimento ---
+ipykernel==6.29.5
+ipython==8.30.0
+autopep8==2.0.1
+colorama==0.4.6
+
+# --- Comunicação e Utilidades ---
+httpx==0.28.0
+httpcore==1.0.7
+fsspec==2023.10.0
+cffi==1.17.1
