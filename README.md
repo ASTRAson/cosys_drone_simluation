@@ -18,7 +18,7 @@ The project uses **Unreal Engine 5.5.4** integrated with **Cosys-AirSim** to cre
 
 ## Dataset and Model
 The dataset used was synthetically generated within the virtual environment and labeled via **Roboflow**.
-> [https://app.roboflow.com/ufpa-qpnhs/abacaxideteccao drone/models/abacaxi deteccao drone/1]
+> [https://app.roboflow.com/ufpa-qpnhs/abacaxi_deteccao_drone/models/abacaxi_deteccao_drone/1](https://app.roboflow.com/ufpa-qpnhs/abacaxi_deteccao_drone/models/abacaxi_deteccao_drone/1)
 
 ## How to Start (Installation Guide)
 
@@ -28,26 +28,30 @@ Follow these steps to set up the environment on your machine.
 ### 1. Python Environment Setup
 I recommend using a virtual environment to manage dependencies:
 
-```bash
 # Create virtual environment
+```bash
 python -m venv venv
-
+```
 # Activate environment
+```bash
 .\venv\Scripts\activate
-
-# Install required libraries
-pip install cosysairsim opencv-python roboflow ultralytics
+```
+# clone this repository
+```
+git clone -- recursive [https://github.com/ASTRAson/cosys_drone_simluation.git](https://github.com/ASTRAson/cosys_drone_simluation.git)
 ```
 
 ### 2. Cloning the Original Cosys-AirSim Repository
 To use the simulator framework, you must clone the official **Cosys-AirSim** repository, which contains the core plugin and environment source code.
 
-```bash
 # Clone the official Cosys-AirSim repository with submodules
+```bash
 git clone --recursive [https://github.com/cosys-lab/Cosys-AirSim.git](https://github.com/cosys-lab/Cosys-AirSim.git)
 ```
-# Enter the directory
-cd Cosys-AirSim
+# in your terminal run the requirements.txt script to install all the necessary packages
+```bash
+pip install -r requirements.txt
+```
 
 ### 3. Visual Studio 2022 Configuration
 To compile the environment and the Cosys-AirSim plugin, you must install **Visual Studio 2022** with specific workloads.
