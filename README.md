@@ -25,10 +25,10 @@ The dataset used was synthetically generated within the virtual environment and 
 Follow these steps to set up the environment on your machine.
 
 
-### 1. Python Environment Setup
+# 1. Python Environment Setup
 I recommend using a virtual environment to manage dependencies:
 
-# Create virtual environment
+### Create virtual environment
 ```bash
 python -m venv venv
 ```
@@ -36,24 +36,24 @@ python -m venv venv
 ```bash
 .\venv\Scripts\activate
 ```
-# clone this repository
+### clone this repository
 ```
 git clone https://github.com/ASTRAson/cosys_drone_simluation.git
 ```
 
-### 2. Cloning the Original Cosys-AirSim Repository
+# 2. Cloning the Original Cosys-AirSim Repository
 To use the simulator framework, you must clone the official **Cosys-AirSim** repository, which contains the core plugin and environment source code.
 
-# Clone the official Cosys-AirSim repository with submodules
+### Clone the official Cosys-AirSim repository with submodules
 ```bash
 git clone https://github.com/cosys-lab/Cosys-AirSim.git
 ```
-# in your terminal run the requirements.txt script to install all the necessary packages
+### in your terminal run the requirements.txt script to install all the necessary packages
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Visual Studio 2022 Configuration
+# 3. Visual Studio 2022 Configuration
 To compile the environment and the Cosys-AirSim plugin, you must install **Visual Studio 2022** with specific workloads.
 
 * **Workloads Required**:
@@ -64,12 +64,12 @@ To compile the environment and the Cosys-AirSim plugin, you must install **Visua
     * **Windows 10/11 SDK** (Match your current OS version).
     * **.NET Framework 4.8.1 targeting pack**.
 
-### 4. Simulator Configuration (AirSim)
+# 4. Simulator Configuration (AirSim)
 To ensure the drone and sensors operate correctly for remote area monitoring, you must link your `settings.json`.
 1. Locate your AirSim folder at `Documents/AirSim`.
 2. Copy the `settings.json` file provided in the `/simulation/settings/` folder of this repository into that directory.
 
-### 5. Running the Project
+# 5. Running the Project
 1. Open the `drone.uproject` file in **Unreal Engine 5.5.4**.
 2. If prompted to rebuild missing modules (such as the AirSim plugin), click **Yes**.
 3. This will open a blank unreal map, and you can build your environment as you desire from there.
