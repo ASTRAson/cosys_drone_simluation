@@ -6,7 +6,7 @@ This repository contains the simulation and detection framework for object monit
 The project uses **Unreal Engine 5.5.4** integrated with **Cosys-AirSim** to create a realistic virtual environment where a machine learning model is trained and tested for object detection.
 
 ## Technologies Used
-* **Simulator:** Unreal Engine 5.5.4 + Cosys-AirSim
+* **Simulator:** Unreal Engine 5.5.4 + Cosys-AirSim + Visual Studio 2022
 * **Language:** Python 3.9
 * **Computer Vision:** YOLO (Trained via Roboflow)
 * **Reference Hardware:** Dell G15 (GTX 1650, 16GB RAM, Intel i5-10500H)
