@@ -32,7 +32,7 @@ I recommend using a virtual environment to manage dependencies:
 ```bash
 python -m venv venv
 ```
-# Activate environment
+### Activate environment
 ```bash
 .\venv\Scripts\activate
 ```
