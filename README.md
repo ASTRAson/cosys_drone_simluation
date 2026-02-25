@@ -18,7 +18,7 @@ The project uses **Unreal Engine 5.5.4** integrated with **Cosys-AirSim** to cre
 
 ## Dataset and Model
 The dataset used was synthetically generated within the virtual environment and labeled via **Roboflow**.
-> [https://app.roboflow.com/ufpa-qpnhs/abacaxi deteccao drone/models/abacaxi deteccao drone/1]
+> [https://app.roboflow.com/ufpa-qpnhs/abacaxideteccao drone/models/abacaxi deteccao drone/1]
 
 ## How to Start (Installation Guide)
 
