@@ -1,0 +1,40 @@
+{
+  "SettingsVersion": 2.0,
+  "SimMode": "Multirotor",
+  "SubWindows": [
+    {
+      "WindowID": 0,
+      "CameraName": "bottom_center",
+      "ImageType": 0,
+      "Visible": false
+    }
+  ],
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 640,
+        "Height": 480,
+        "TargetGamma": 2.2,
+        "LumenGIEnable": false,
+        "LumenReflectionEnable": false
+      }
+    ]
+  },
+  "Vehicles": {
+    "Drone1": {
+      "VehicleType": "SimpleFlight",
+      "AutoCreate": true,
+      "Cameras": {
+        "bottom_center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0.5,
+          "Pitch": -90,
+          "Roll": 0,
+          "Yaw": 0
+        }
+      }
+    }
+  }
+}

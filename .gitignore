@@ -1,0 +1,30 @@
+# --- Unreal Engine 5.5.4 ---
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+
+# --- Python ---
+__pycache__/
+venv/
+*.pyc
+
+# --- Dataset e Imagens ---
+# Isso vai ignorar as 800+ fotos para não travar o upload
+*.png
+*.jpg
+*.jpeg
+*.mp4
+**/dataset/
+
+# Ignora toda a pasta que contém as imagens e rótulos do treino
+parameters/
+train/
+valid/
+test/
+
+# Ignora arquivos de texto soltos que o Roboflow gera com hashes
+[0-9a-f]*.txt
